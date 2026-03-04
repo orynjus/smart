@@ -1,0 +1,17 @@
+{
+  "name": "smart-absensi",
+  "version": "7.0.0",
+  "description": "Sistem absensi siswa berbasis web dengan integrasi Google Sheets dan sinkronisasi real-time multi-device via Supabase",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["absensi", "education", "supabase", "google-sheets", "qr-code"],
+  "author": "Bangkit Cerdas Mandiri",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^50.26.1"
+  }
+}
